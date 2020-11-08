@@ -19,6 +19,7 @@ body {
 	text-transform: uppercase;
 	font-family: 'Inconsolata', monospace;
 	letter-spacing: 4px;
+	font-size: 60px;
 }
 
 
@@ -33,16 +34,23 @@ input[type="submit"] {
 	font-size: 15px;
 	border-radius: 4px;
 }
-
-input[type="text"] {
-	padding: 5px 20px 5px 4px;
-	margin-top: 15px;
+input[type='text'] {
+		width: calc(100% - 10px);
+		padding: 15px 5px;
+		border-radius: 2px;
+		border: none;
 }
 
-
-label[for='text'] {
-	color: white;
-	font-size: 50px;
+input[type="submit"] {
+		background-color: white;
+		border:none;
+		padding: 5px 9px;
+		font-size: 20px;
+		width:100%;
+		border-radius: 4px;
+		margin-top: 15px;
+		float: right;
+		font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container {
@@ -67,26 +75,5 @@ label[for='text'] {
 
 	#info {
 		display: none;
-	}
-
-	#content {
-		font-size: 60px;
-	}
-
-	input[type='text'] {
-		width: calc(100% - 10px);
-		padding: 15px 5px;
-		border-radius: 2px;
-		border: none;
-	}
-	input[type="submit"] {
-		background-color: white;
-		border:none;
-		padding: 5px 9px;
-		font-size: 30px;
-		border-radius: 4px;
-		margin-top: 15px;
-		float: right;
-		font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	}
   }
